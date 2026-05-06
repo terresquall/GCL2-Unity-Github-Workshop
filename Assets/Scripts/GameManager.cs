@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
     public void LoseLife()
     {
         lives--;
-        Debug.Log("Lives left: " + lives);
+        Debug.Log("Life lost! " + lives + " left.");
 
         if (lives <= 0)
         {
