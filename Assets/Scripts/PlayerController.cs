@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     public float jumpForce = 8.0f;
 
     private Rigidbody2D rb;
+	private Animator anim;
 
     private void Start()
     {
